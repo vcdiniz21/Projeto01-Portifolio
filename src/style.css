@@ -1,0 +1,90 @@
+.tam-logo {
+    height: 35px;
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    object-position: 0 40%;
+    height: 500px;
+}
+
+.imagem-carrossel-1 {
+    object-fit: cover;
+    object-position: 0 57%;
+    height: 500px;
+}
+
+.main {
+    font-family: 'Montserrat', sans-serif;
+    margin: 80px 0 80px 0;
+}
+
+.main h1 {
+    text-align: center;
+    font-weight: 800;
+    margin: 50px;
+}
+
+.main h2 {
+    text-align: center;
+    font-weight: 200;
+    margin: 80px 0 80px 0;
+}
+.tittle-main {
+    width: 100%;
+}
+
+.main p {
+    font-weight: 200;
+    color: grey;
+}
+
+.main h3 {
+    font-weight: 200;
+    color: bisque;
+    font-size: 18px;
+}
+
+.main h4 {
+    text-align: center;
+    font-weight: 800;
+    color: bisque;
+    margin-bottom: 50px;
+}
+
+.photo-curriculo {
+    float: left;
+	width: 250px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#text-certif {
+    font-size: 25px;
+}
+
+.card-title {
+    font-size: 14px;
+}
+
+.bc-color {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.footer-bc {
+    color: antiquewhite;
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: -10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.footer-bc img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: -10px;
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <title>Victor Diniz da Costa</title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="src/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <header>
+
+        <nav class="navbar navbar-expand-xxl navbar-dark bg-dark fixed-top">
+          <div class="container-fluid"> 
+            <a class="navbar-brand" href="#"><img src="img/logo.png" class="tam-logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <li><a class="nav-link active" aria-current="page" href="#por-pag01">Sobre</a></li>
+                <li><a class="nav-link" href="#por-pag02">Currículo</a></li>
+                <li><a class="nav-link" href="#por-pag03">Certificados</a></li>
+                <li><a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contato</a></li>
+              </div>
+            </div>
+          </div>
+        </nav>     
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="img/photo01.jpg" class="d-block w-100 imagem-carrossel-1" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="img/photo02.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="img/photo03.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+          <div class="main">
+            <h1 id="por-pag01">Victor Diniz da Costa</h1>
+            <h2>Estudos, objetivos e metas:</h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 m-5 text-card">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/card/card01.jpg" class="card-img-top" alt="...">
+                  <div class="card-body imagem-card h-100">
+                    <h5 class="card-title">Graduação</h5>
+                    <p class="card-text">Análise e desenvolvimento de sistemas pela universidade Estácio [Em Adamento]. Previsão de conclusão do curso para 30/05/2025.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/card/card02.jpg" class="card-img-top" alt="...">
+                  <div class="card-body imagem-card h-100">
+                    <h5 class="card-title">Área de Especialização</h5>
+                    <p class="card-text">Atualmente tenho focado meus estudos em Front-End. Realizei diversos cursos pertinentes a carreira. Html, Css, JavaScript, Bootstrap e git/github. Certificados disponíveis na aba certificados. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/card/card03.jpg" class="card-img-top" alt="...">
+                  <div class="card-body imagem-card h-100">
+                    <h5 class="card-title">Estudos</h5>
+                    <p class="card-text">Além da parte de aprendizado que tenho na graduação na Estácio, estou realizando cursos pela Udemy e Alura. Realizei também cursos empre processos seletivos, com ênfase em lógica da programação.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="bg-dark p-5">
+                <div class="tittle-main">
+                  <br>
+                  <h4 id="por-pag02">Currículo</h4>
+                  <h3>Dados Pessoais<hr></h3>
+                  <div class="photo-curriculo">
+                    <img src="img/foto.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <h3>Nome:</h3>
+                    <p>Victor Diniz da Costa</p>
+
+                  <h3>Data de Nascimento:</h3>
+
+                    <p>21/11/1990</p>
+
+                  <h3>Residência:</h3>
+
+                    <p>Lavras/MG - Brasil</p>
+
+                  <h3>Idiomas:</h3>
+
+                    <p>Português (Nativo)</p>
+                    <p>Inglês Básico</p>
+                  <br>
+                  <h3>Formação:</h3>
+
+                    <p>Graduado em Direito pela Faculdade de Direto Unilavras em 2017/2.</p>
+                    <p>Graduação de Análise e Desenvolvimentos de Sistemas de em andamento pela Estácio, previsão de conclusão em 06/2025.</p>
+                </div>
+            </div>
+              <h1 id="por-pag03">Certificados</h1>
+              <h2 id="text-certif">Certificados de conclusão de curso:</h2>
+            <div class="container">
+              <div class="row">
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado01.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Java e JPA: persista seus objetos com a JPA2 e Hibernate</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/09b94870-9424-4dc4-8129-a0aeaa07fed6" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado02.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">JavaScript e HTML: desenvolva um jogo e pratique lógica de programação</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/2a7c29d7-0061-4091-8ae7-d3097abc55cd" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado03.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">JavaScript e HTML: pratique lógica com desenhos, animações e um jogo</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/9c3617d7-f751-4df0-9304-1d15d5ccd31e" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado04.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML5 e CSS3 I: Suas primeiras páginas da Web</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/7135f50d-c197-456a-8d87-6e4bbdf75f81" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado05.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML5 e CSS3 parte 2: posicionamento, listas e navegação</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/87cdc264-b12b-4784-93a9-de996869951d" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado06.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/a73c4f48-199c-4fe7-b6b2-254394871ffc" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado07.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML5 e CSS3 parte 4: avançando no CSS</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/9821e271-3d45-41a5-8170-0ce3ee8f47de" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado08.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Photoshop: composição de peça publicitária</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/07814750-8d1d-46cd-b1bf-9d3a67332522" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado09.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Adobe Photoshop: compondo peça publicitária</h5>
+                    <p class="card-text">SCurso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/6bbcd476-8c5c-487f-a1d5-a936b3a77d4e" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado10.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Tipografia: conhecendo o que há por trás dos tipos</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/bd44f9a4-8b25-4542-9f14-f07f0fb2fb69" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado11.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML5 e CSS3 I: Suas primeiras páginas da Web</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/7135f50d-c197-456a-8d87-6e4bbdf75f81" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado12.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Git e GitHub: repositório, commit e versões</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/df0c24f5-1bbf-4863-b1a7-27c60637c575" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado13.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/256d9684-57d2-44a0-aae1-71856aa656b6" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado14.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">JavaScript para Web: Crie páginas dinâmicas</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/6adf4025-1cd2-4daf-b8fc-db21655317a7" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="img/certificados/certificado15.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap 4: criando uma landing page responsiva</h5>
+                    <p class="card-text">Curso concluído.</p>
+                    <a href="https://cursos.alura.com.br/certificate/8e723083-0f32-4436-8ebb-350fc69b2d79" class="btn bc-color">Acessar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contato - VCD</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Endereço de E-mail</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Sua Mensagem</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Digite sua mensagem" rows="3"></textarea>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="footer-bc bg-dark">
+            <p>contato: vcdiniz21@gmail.com</p>
+            <hr>
+             <a href="https://www.linkedin.com/in/victor-diniz-30987418b/"><img src="img/facebook.png" class="card-img-top" alt="..."></a> 
+             <a href="https://www.linkedin.com/in/victor-diniz-30987418b/"><img src="img/linkedin.png" class="card-img-top" alt="..."></a> 
+              <a href="https://www.linkedin.com/in/victor-diniz-30987418b/"><img src="img/discord.png" class="card-img-top" alt="..."></a> 
+          </footer>
+      </header>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
